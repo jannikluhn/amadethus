@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amadethus</title>
+    <meta charset="UTF-8">
+
+<style>
+
+body {
+  background-color: #303030;
+  height: 100%;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+
+  color: #e0e0e0;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+i {
+  font-size: 3em;
+  margin: 0.3em;
+}
+a.hash {
+  color: #e0e0e0;
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+a.hash:hover {
+  text-decoration: underline;
+}
+.github {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.github > a {
+  color: #e0e0e0;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+</style>
+
+  </head>
+  <body>
+  <div class="outer">
+    <div class="middle">
+      <div class="inner">
+        <h1>Amadethus</h1>
+        <p><i id="icon" class="fas fa-hourglass-half"></i></p>
+      </div>
+      <div class="inner">
+        <a id="hash" class="hash"></a>
+      </div>
+    </div>
+  </div>
+  <div class="github">
+    <a href="https://github.com/jannikluhn/amadethus">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <script src="https://kit.fontawesome.com/8d061def57.js" crossorigin="anonymous"></script>
+  <script src="./bundle.js"></script>
+  </body>
+</html>
