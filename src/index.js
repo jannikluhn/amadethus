@@ -2,9 +2,7 @@ import { ethers } from "ethers";
 import seed from "seed-random";
 import * as Tone from "tone";
 
-console.log("samples");
 import { samples } from "./piano";
-console.log("samples");
 import { randomWaltz, playWaltz } from "./score";
 
 const nearley = require("nearley");
@@ -31,9 +29,7 @@ let started = false;
 let muted = true;
 
 // load samples
-console.log("loading");
 let sampler = new Tone.Sampler(samples, function() {
-  console.log("loaded");
   loaded = true;
   icon.className = "fas fa-play";
 });

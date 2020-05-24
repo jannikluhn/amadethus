@@ -45661,9 +45661,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-console.log("samples");
 
-console.log("samples");
 
 
 const nearley = __webpack_require__(/*! nearley */ "./node_modules/nearley/lib/nearley.js");
@@ -45690,9 +45688,7 @@ let started = false;
 let muted = true;
 
 // load samples
-console.log("loading");
 let sampler = new tone__WEBPACK_IMPORTED_MODULE_2__["Sampler"](_piano__WEBPACK_IMPORTED_MODULE_3__["samples"], function() {
-  console.log("loaded");
   loaded = true;
   icon.className = "fas fa-play";
 });
